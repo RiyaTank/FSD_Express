@@ -13,7 +13,6 @@ object = [
     },
     {
         name: "Singer2",
-
         age: 21
     },
     {
