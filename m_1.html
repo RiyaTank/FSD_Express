@@ -1,0 +1,29 @@
+<!-- var store = multer.diskStorage(
+    {
+        destination: "single",
+        filename: function (req, file, cb) {
+            cb(null, file.originalname)
+        }
+    }
+) -->
+
+<!-- write an expree script that accepts single file to be uploaded using the multer middle ware and saves the file
+ to the spcific directory named "LJU"  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/uploadfile" method="post" enctype="multipart/form-data">
+        <input type="file" name="mypic" accept="jfif">
+        <input type="submit">
+    </form>
+</body>
+
+</html>
